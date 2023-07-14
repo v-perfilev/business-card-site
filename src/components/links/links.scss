@@ -1,0 +1,14 @@
+@import "src/constants";
+
+.links {
+
+  &__stack {
+    position: relative;
+    align-items: flex-start;
+  }
+
+  &__image {
+    width: 30px;
+    height: 30px;
+  }
+}
