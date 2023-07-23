@@ -20,14 +20,14 @@ const config: GatsbyConfig = {
             name: "images",
             path: `${__dirname}/static/images`,
         },
-        __key: "images"
     }, {
         resolve: 'gatsby-source-filesystem',
         options: {
             name: "files",
-            path: `${__dirname}/static/files`,
+            path: `${__dirname}/static`,
+            ignore: [`**/*`],
+            fastHash: true,
         },
-        __key: "files"
     }]
 };
 

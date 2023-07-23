@@ -8,7 +8,7 @@ const Card: React.FC = () => {
     const isSmUp = useMediaQuery((theme: Theme) => theme.breakpoints.up('sm'));
 
     return (
-        <Stack className="card__stack" direction={isSmUp ? 'row' : 'column'} spacing={2}>
+        <Stack className="card__stack" direction={isSmUp ? 'row' : 'column'} spacing={4}>
             <Box className="card__image">
                 <StaticImage src="../../../static/images/vp.jpg" alt="Vladimir Perfilev"/>
             </Box>
@@ -16,8 +16,9 @@ const Card: React.FC = () => {
                 <Typography variant="h3">
                     Vladimir Perfilev
                 </Typography>
-                <Typography variant="h6">
-                    Software Architect, Lead Full Stack Developer
+                <Typography variant="h6" textAlign="center">
+                    Software Architect, <br/>
+                    Lead Full Stack Developer
                 </Typography>
             </Stack>
         </Stack>

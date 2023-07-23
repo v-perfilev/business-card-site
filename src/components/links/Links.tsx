@@ -9,7 +9,7 @@ const LInks: React.FC = () => {
     return (
         <Stack className="links__stack" direction="column" spacing={3}>
 
-            <a href="/files/CV-Vladimir-Perfilev-2023.pdf" target="_blank">
+            <a href="/CV-Perfilev-2023.pdf" target="_blank">
                 <Stack direction="row" spacing={2}>
                     <Box className="links__image">
                         <StaticImage src="../../../static/images/cv.png" alt="LinkedIn"/>
