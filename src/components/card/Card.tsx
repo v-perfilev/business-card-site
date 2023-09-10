@@ -18,6 +18,7 @@ const Card: React.FC = () => {
                 </Typography>
                 <Typography variant="h6" textAlign="center">
                     Software Architect, <br/>
+                    Staff Engineer, <br/>
                     Lead Full Stack Developer
                 </Typography>
             </Stack>
