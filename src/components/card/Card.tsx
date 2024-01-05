@@ -17,8 +17,7 @@ const Card: React.FC = () => {
                     Vladimir Perfilev
                 </Typography>
                 <Typography variant="h6" textAlign="center">
-                    Staff Engineer, <br/>
-                    Software Architect
+                    Lead Software Developer
                 </Typography>
             </Stack>
         </Stack>

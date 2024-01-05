@@ -4,12 +4,12 @@ import React from "react";
 import {Box, Stack, Typography} from "@mui/material";
 import {StaticImage} from "gatsby-plugin-image";
 
-const LInks: React.FC = () => {
+const Links: React.FC = () => {
 
     return (
         <Stack className="links__stack" direction="column" spacing={3}>
 
-            <a href="/CV-Perfilev-2023.pdf" target="_blank">
+            <a href="/CV-Perfilev-2024.pdf" target="_blank">
                 <Stack direction="row" spacing={2}>
                     <Box className="links__image">
                         <StaticImage src="../../../static/images/cv.png" alt="LinkedIn"/>
@@ -31,8 +31,19 @@ const LInks: React.FC = () => {
                 </Stack>
             </a>
 
+            <a href="https://github.com/v-perfilev/" target="_blank">
+                <Stack direction="row" spacing={2}>
+                    <Box className="links__image">
+                        <StaticImage src="../../../static/images/github.png" alt="GitHub"/>
+                    </Box>
+                    <Typography variant="h6">
+                        Check out my GitHub repositories
+                    </Typography>
+                </Stack>
+            </a>
+
         </Stack>
     );
 };
 
-export default LInks;
+export default Links;
