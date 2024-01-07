@@ -14,7 +14,7 @@ const Links: React.FC = () => {
                     <Box className="links__image">
                         <StaticImage src="../../../static/images/cv.png" alt="LinkedIn"/>
                     </Box>
-                    <Typography variant="h6">
+                    <Typography className="links__text" variant="h6">
                         Download my CV
                     </Typography>
                 </Stack>
@@ -25,7 +25,7 @@ const Links: React.FC = () => {
                     <Box className="links__image">
                         <StaticImage src="../../../static/images/linkedin.png" alt="LinkedIn"/>
                     </Box>
-                    <Typography variant="h6">
+                    <Typography className="links__text" variant="h6">
                         Look at my profile on LinkedIn
                     </Typography>
                 </Stack>
@@ -36,7 +36,7 @@ const Links: React.FC = () => {
                     <Box className="links__image">
                         <StaticImage src="../../../static/images/github.png" alt="GitHub"/>
                     </Box>
-                    <Typography variant="h6">
+                    <Typography className="links__text" variant="h6">
                         Check out my GitHub repositories
                     </Typography>
                 </Stack>

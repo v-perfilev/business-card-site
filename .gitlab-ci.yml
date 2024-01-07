@@ -7,8 +7,6 @@ variables:
 cache:
   paths:
     - node_modules/
-    - static/
-    - .cache/
 
 stages:
   - compile
