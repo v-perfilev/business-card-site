@@ -26,7 +26,7 @@ const Links: React.FC = () => {
                         <StaticImage src="../../../static/images/linkedin.png" alt="LinkedIn"/>
                     </Box>
                     <Typography className="links__text" variant="h6">
-                        Look at my profile on LinkedIn
+                        Connect with me on LinkedIn
                     </Typography>
                 </Stack>
             </a>
